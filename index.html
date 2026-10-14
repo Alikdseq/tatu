@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Смета сайта — Лохов Царай</title>
+  <meta name="description" content="Полный проект сайта Лохов Царай — 90 000 ₽. Отметь, что включить, и пришли список.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Алихан · коммерческое предложение</p>
+        <h1>Сайт для мастера<br>Лохов Царай</h1>
+        <p class="lead">Отметь, что хочешь включить. У каждого пункта можно открыть пояснение: зачем он тебе и что ты получаешь.</p>
+      </div>
+      <aside class="hero-card">
+        <p class="hero-card-label">Полный проект</p>
+        <p class="hero-card-sum">90&nbsp;000&nbsp;₽</p>
+        <p class="hero-card-note">Отметь работы и пришли мне список. Цена полного проекта — эта.</p>
+        <ol>
+          <li>Выбери готовый набор или собери свой.</li>
+          <li>Открой пункт и прочитай, зачем он.</li>
+          <li>Скопируй состав и пришли мне.</li>
+        </ol>
+      </aside>
+    </div>
+  </header>
+
+  <main class="wrap layout">
+    <div>
+      <section class="presets" id="presets" aria-label="Готовые наборы"></section>
+      <div id="sections"></div>
+      <section class="offer">
+        <p class="kicker">Отдельный вариант</p>
+        <h2>Если сайт сделаешь сам</h2>
+        <p>Поиск и запуск беру я.</p>
+        <p class="offer-sum">20&nbsp;000&nbsp;₽</p>
+        <div class="offer-row"><span>SEO</span><b>15&nbsp;000&nbsp;₽</b></div>
+        <div class="offer-row"><span>Деплой</span><b>5&nbsp;000&nbsp;₽</b></div>
+      </section>
+      <section class="later">
+        <h2>Поддержка после запуска</h2>
+        <p>Обновления, бэкапы, правки текстов, новые страницы и отчёты по заявкам я не закладываю в эти 90&nbsp;000&nbsp;₽. Это отдельный разговор, когда сайт уже работает и понятно, что тебе нужно каждый месяц.</p>
+      </section>
+    </div>
+    <aside class="summary" id="summary"></aside>
+  </main>
+
+  <div class="dock" id="dock"></div>
+  <script src="app.js"></script>
+</body>
+</html>
